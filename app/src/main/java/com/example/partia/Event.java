@@ -24,6 +24,7 @@ public class Event {
     private RidesBoard rides;
     private Cashier cashier;
     private Utils.KindOfEvent kindOfEvent;
+    private Utils.KindOfMeal kindOfMeal;
     private Utils.Environment environment;
     private Utils.Organization organizationOfMeal;
     private Utils.Organization organizationOfBeverage;
@@ -194,5 +195,11 @@ public class Event {
         this.answersSum = queryAnswersSum;
     }
 
+    public Utils.KindOfMeal getKindOfMeal() {
+        return kindOfMeal;
+    }
 
+    public void setKindOfMeal(Utils.KindOfMeal kindOfMeal) {
+        this.kindOfMeal = kindOfMeal;
+    }
 }
