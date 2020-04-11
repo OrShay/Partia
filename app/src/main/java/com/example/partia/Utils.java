@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Utils {
 
-    public enum Organization{NON, MULTIPULE_INCHARGE, SINGLE_INCHARGE, OUTSOURCE_INCHARGE}
+    public enum Organization{NON, MULTIPLE_INCHING, SINGLE_INCHARGE, OUTSOURCE_INCHARGE}
     public enum KindOfEvent{BACHELORETTE, BIRTHDAY, GATHERING}
     public enum Environment {OUTDOORS, INDOORS}
     public enum FoodPreference {VEGETARIAN, VEGAN, KOSHER, GLUTEN_FREE, LACTOSE_FREE, FISH}
@@ -15,6 +15,8 @@ public class Utils {
                             CAMPARI_GLASS, CAMPARI_SHOT,
                             ARAK_GLASS, ARAK_SHOT,
                             GIN_GLASS, GIN_SHOT }
+
+    public enum KindOfMeal {NON, MEAT, DAIRY}
 
 }
 
